@@ -13,6 +13,8 @@
 		9AAB80612C492D9B0082A220 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9AAB80602C492D9B0082A220 /* Base */; };
 		9AAB80632C492D9D0082A220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AAB80622C492D9D0082A220 /* Assets.xcassets */; };
 		9AAB80662C492D9D0082A220 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9AAB80652C492D9D0082A220 /* Base */; };
+		9AAB806D2C492E0C0082A220 /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9AAB806C2C492E0C0082A220 /* harrypotter.mp4 */; };
+		9AAB806F2C492E480082A220 /* Screenshot 2024-07-18 at 13.56.42.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AAB806E2C492E480082A220 /* Screenshot 2024-07-18 at 13.56.42.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		9AAB80602C492D9B0082A220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AAB80622C492D9D0082A220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AAB80652C492D9D0082A220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AAB806C2C492E0C0082A220 /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = harrypotter.mp4; sourceTree = "<group>"; };
+		9AAB806E2C492E480082A220 /* Screenshot 2024-07-18 at 13.56.42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-07-18 at 13.56.42.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 		9AAB80582C492D9B0082A220 /* MagicPaper */ = {
 			isa = PBXGroup;
 			children = (
+				9AAB806C2C492E0C0082A220 /* harrypotter.mp4 */,
 				9AAB80592C492D9B0082A220 /* AppDelegate.swift */,
 				9AAB805B2C492D9B0082A220 /* art.scnassets */,
 				9AAB805D2C492D9B0082A220 /* ViewController.swift */,
 				9AAB805F2C492D9B0082A220 /* Main.storyboard */,
 				9AAB80622C492D9D0082A220 /* Assets.xcassets */,
+				9AAB806E2C492E480082A220 /* Screenshot 2024-07-18 at 13.56.42.png */,
 				9AAB80642C492D9D0082A220 /* LaunchScreen.storyboard */,
 			);
 			path = MagicPaper;
@@ -123,9 +129,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AAB806D2C492E0C0082A220 /* harrypotter.mp4 in Resources */,
 				9AAB805C2C492D9B0082A220 /* art.scnassets in Resources */,
 				9AAB80632C492D9D0082A220 /* Assets.xcassets in Resources */,
 				9AAB80612C492D9B0082A220 /* Base in Resources */,
+				9AAB806F2C492E480082A220 /* Screenshot 2024-07-18 at 13.56.42.png in Resources */,
 				9AAB80662C492D9D0082A220 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
